@@ -34,7 +34,7 @@ var UserComponent = (function () {
 UserComponent = __decorate([
     core_1.Component({
         selector: 'user',
-        template: "\n    <h1>Hello {{name}}</h1>\n    <p><strong>Email:</strong> {{email}}</p>\n    <p><strong>Address:</strong> {{address.street}} {{address.city}} {{address.state}}</p>\n    <button (click)=\"toggleHobbies()\">{{showHobbies ? 'Hide Hobbies', 'Show Hobbies'}}</button>\n    <div *ngIf=\"showHobbies\">\n        <h3>Hobbies</h3>\n        <ul>\n            <li *ngFor=\"let hobby of hobbies\">\n                {{hobby}}\n            </li>\n        </ul>\n    </div>\n    ",
+        template: "\n    <h1>Hello {{name}}</h1>\n    <p><strong>Email:</strong> {{email}}</p>\n    <p><strong>Address:</strong> {{address.street}} {{address.city}} {{address.state}}</p>\n    <button (click)=\"toggleHobbies()\">Show Button 2</button>\n    <div *ngIf=\"showHobbies\">\n        <h3>Hobbies</h3>\n        <ul>\n            <li *ngFor=\"let hobby of hobbies\">\n                {{hobby}}\n            </li>\n        </ul>\n    </div>\n    ",
     }),
     __metadata("design:paramtypes", [])
 ], UserComponent);
